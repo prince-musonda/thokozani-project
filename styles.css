@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    background-image: url('modern-business-building-scenery-touching-sky.jpg');
+
+}.flex-container{
+    width: 60rem;
+    max-width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.item-1{
+    background-color: rgba(255, 255, 255, 0.774);
+    border-radius: 20px;
+    padding: 2rem;
+}
+a,a:active{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    font-size: 1.5rem;
+    padding: 2rem;
+    background: rgb(29, 117, 180);;
+    border: none;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+div img{
+    margin-top: 1rem;
+    width: 100%;
+}
